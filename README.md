@@ -6,7 +6,7 @@ Index adds homebrewed items from DnD campaign "Mysteries of Oestria" created by 
 Index link for Aurora client:
 https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous_Items.index
 
-#List of items:
+# List of items:
 
 ## Armors
 - [TEST ITEM] Shield of Hellish Rebuke <br>
