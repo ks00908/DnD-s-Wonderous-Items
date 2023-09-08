@@ -4,12 +4,12 @@
 		<name>Deadeye's Wonderous Items</name>
 		<description>" "</description>
 		<author url="">Deadeye</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="items-armor.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items-armor.xml" />
 		</update>
 	</info>
 	<!--shield-->
-	<element name="Shield of Hellish Rebuke" type="Armor" source="Deadeye's Wonderous Items" id="ID_DEADEYE_HELL_REB_SHD">
+	<element name="[TEST ITEM] Shield of Hellish Rebuke" type="Armor" source="Deadeye's Wonderous Items" id="ID_DEADEYE_HELL_REB_SHD">
 		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
 		<description>
 			<p>circular shield made of obsidian-black metal adorned with intricate, crimson-rimmed runes etched along its surface.</p>
