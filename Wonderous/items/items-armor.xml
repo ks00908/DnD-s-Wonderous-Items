@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Deadeye's Wonderous Items</name>
-		<description></description>
+		<description>" "</description>
 		<author url=</author>
 		<update version="0.0.1">
 			<file name="items-armor.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items-armor.xml" />
