@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="sources.xml" url="Add_URL_HERE/Wonderous/source.xml" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/source.xml" />
 		</update>
 	</info>
 	<element name="Deadeye's Wonderous Items" type="Source" source="Homebrew" id="ID_BREW_DEADEYE">
@@ -12,8 +12,8 @@
 		</description>
 		<setters>
 			<set name="abbreviation">DWI</set>
-			<set name="url">ADD_GITHUB_URL</set>
-			<set name="author" abbreviation="Deadeye" url="ADD_GITHUB_URL">Deadeye and other Chucklefucks</set>
+			<set name="url">https://github.com/ks00908/DnD-s-Wonderous-Items/tree/master</set>
+			<set name="author" abbreviation="Deadeye" url="https://github.com/ks00908/DnD-s-Wonderous-Items/tree/master">Deadeye and other Chucklefucks</set>
 			<set name="official">false</set>
 			<set name="core">false</set>
 			<set name="release">20230908</set>
