@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Deadeye's Wonderous Items</name>
+		<description>Custom Items library for DnD campaign</description>
+		<author url="blank">Deadeye and other chucklefucks</author>
+		<update version="0.2.6">
+			<file name="core.index" url="ADD_URL_HERE/master/Wonderous_Items.index" />
+		</update>
+	</info>
+	<files>
+		<file name="internal_wonderous.xml" url="ADD_URL_HERE/master/Wonderous/internal_wonderous.xml" />
+
+		<file name="deadeyes_wonderous_items.index" url="ADD_URL_HERE/master/Wonderous/deadeyes_wonderous_items.index" />
+	</files>
+</index>
