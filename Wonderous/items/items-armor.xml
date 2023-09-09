@@ -14,7 +14,7 @@
 		<description>
 			<p>circular shield made of obsidian-black metal adorned with intricate, crimson-rimmed runes etched along its surface.</p>
 			<p>As you grasp its handle, you can feel a faint, fiery warmth emanating from within, an ever-present reminder of the hellfire contained within.</p>
-			<p class="indent"><b><i>Hellish Rebuke:</i></b> The Shield allows you to cast Hellish Rebuke as level 1 spell once per short rest without using spell slots</p>
+			<p class="indent"><b><i>Hellish Rebuke:</i></b> The Shield allows you to cast Hellish Rebuke as level 1 spell once per short rest without using spell slots. Dexterity is your casting focus for this spell.</p>
 		</description>
 		<setters>
 			<set name="category">Armor</set>
