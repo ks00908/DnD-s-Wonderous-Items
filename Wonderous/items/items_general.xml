@@ -4,12 +4,12 @@
 		<name>Deadeye's Wonderous Items</name>
 		<description>" "</description>
 		<author url="">Deadeye</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="items_general.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items_general.xml" />
 		</update>
 	</info>
 	<!--shield-->
-	<element name="[TEST ITEM] Pendant neckacle" type="Treasure" source="Deadeye's Wonderous Items" id="ID_DEADEYE_PEND_NECKACLE">
+	<element name="[TEST ITEM] Pendant neckacle" type="Item" source="Deadeye's Wonderous Items" id="ID_DEADEYE_PEND_NECKACLE">
 		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
 		<description>
 			<p>circular shield made of obsidian-black metal adorned with intricate, crimson-rimmed runes etched along its surface.</p>
@@ -17,7 +17,7 @@
 			<p class="indent"><b><i>Hellish Rebuke:</i></b> The Shield allows you to cast Hellish Rebuke as level 1 spell once per short rest without using spell slots. Dexterity is your casting focus for this spell.</p>
 		</description>
 		<setters>
-			<set name="category">Treasure</set>
+			<set name="category">TEST_CATEGORY</set>
 			<set name="cost" currency="gp">10</set>
 			<set name="weight" lb="6">6 lb.</set>
 			<set name="type">Treasure</set>
