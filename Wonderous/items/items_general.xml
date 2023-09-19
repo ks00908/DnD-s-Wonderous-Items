@@ -5,7 +5,7 @@
 		<description>" "</description>
 		<author url="">Deadeye</author>
 		<update version="0.0.2">
-			<file name="items-general.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items-general.xml" />
+			<file name="items_general.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items_general.xml" />
 		</update>
 	</info>
 	<!--shield-->

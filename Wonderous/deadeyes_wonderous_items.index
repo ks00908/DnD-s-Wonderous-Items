@@ -4,7 +4,7 @@
 		<name>Deadeye's Wonderous Items</name>
 		<description>Contains resources for custom items created in DnD campaign</description>
 		<author>Deadeye</author>
-		<update version="0.2.3">
+		<update version="0.2.4">
 			<file name="deadeyes_wonderous_items.index" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/deadeyes_wonderous_items.index" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 		<file name="source.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/source.xml" />
 		<!-- paths -->
 		<file name="items-armor.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items-armor.xml" />
-		<file name="items-general.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items-general.xml" />
+		<file name="items_general.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items_general.xml" />
 	
 	</files>
 </index>
