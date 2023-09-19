@@ -4,7 +4,7 @@
 		<name>Deadeye's Wonderous Items</name>
 		<description>" "</description>
 		<author url="">Deadeye</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="items_general.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items_general.xml" />
 		</update>
 	</info>
@@ -17,7 +17,7 @@
 			<p class="indent"><b><i>Hellish Rebuke:</i></b> The Shield allows you to cast Hellish Rebuke as level 1 spell once per short rest without using spell slots. Dexterity is your casting focus for this spell.</p>
 		</description>
 		<setters>
-			<set name="category">Deadeye's Wonderous Items</set>
+			<set name="category">Treasure</set>
 			<set name="cost" currency="gp">10</set>
 			<set name="weight" lb="6">6 lb.</set>
 			<set name="type">Treasure</set>
