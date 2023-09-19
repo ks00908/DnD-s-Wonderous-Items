@@ -4,17 +4,16 @@
 		<name>Deadeye's Wonderous Items</name>
 		<description>" "</description>
 		<author url="">Deadeye</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="items_general.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items_general.xml" />
 		</update>
 	</info>
 	<!--shield-->
-	<element name="[TEST ITEM] Pendant neckacle" type="Item" source="Deadeye's Wonderous Items" id="ID_DEADEYE_PEND_NECKACLE">
-		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+	<element name="[TEST ITEM] Pendant of Love" type="Item" source="Deadeye's Wonderous Items" id="ID_DEADEYE_PEND_NECKACLE">
 		<description>
-			<p>circular shield made of obsidian-black metal adorned with intricate, crimson-rimmed runes etched along its surface.</p>
-			<p>As you grasp its handle, you can feel a faint, fiery warmth emanating from within, an ever-present reminder of the hellfire contained within.</p>
-			<p class="indent"><b><i>Hellish Rebuke:</i></b> The Shield allows you to cast Hellish Rebuke as level 1 spell once per short rest without using spell slots. Dexterity is your casting focus for this spell.</p>
+			<p>A small metal pendant that opens to show picture of happy family</p>
+			<p>As you grasp it you feel the warmth of loving family embrace</p>
+			<p class="indent"><b><i>Good Feels:</i></b> The pendant makes you feel better about yourself sport, you can do the thing. Even if it seems difficult at start.</p>
 		</description>
 		<setters>
 			<set name="category">Deadeye's Wonderous Items</set>
