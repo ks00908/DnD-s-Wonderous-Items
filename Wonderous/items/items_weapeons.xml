@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Deadeye's Wonderous Items</name>
+		<description>" "</description>
+		<author url="">Deadeye</author>
+		<update version="0.0.1">
+			<file name="items-weapeons.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items_weapeons.xml" />
+		</update>
+	</info>
+	<element name="Lakeside Staff" type="Staff" source="Deadeye's Wonderous Items" id="ID_DEADEYE_HELL_REB_SHD">
+		<supports>ID_INTERNAL_ARMOR_GROUP_STAFFS</supports>
+		<description>
+			<p>PLACEHOLDER</p>
+			<p>PLACEHOLDER</p>
+			<p class="indent"><b><i>PLACEHOLDER</i></b> PLACEHOLDER</p>
+		</description>
+		<setters>
+			<set name="category">Deadeye's Wonderous Items</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="type">Staff</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_MARTIAL</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" />
+		</rules>
+	</element>
+</elements>

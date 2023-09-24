@@ -8,7 +8,7 @@
 			<file name="items-armor.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items-armor.xml" />
 		</update>
 	</info>
-	<!--shield-->
+	<!--Test Items-->
 	<element name="[TEST ITEM] Shield of Hellish Rebuke" type="Armor" source="Deadeye's Wonderous Items" id="ID_DEADEYE_HELL_REB_SHD">
 		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
 		<description>
@@ -29,6 +29,25 @@
 		<rules>
 			<stat name="ac:shield" value="2" bonus="shield" />
 			<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" />
+		</rules>
+	</element>
+	<element name="[TEST ITEM] Shield of Hellish Rebuke" type="Armor" source="Deadeye's Wonderous Items" id="ID_DEADEYE_HELL_REB_SHD">
+		<supports>ID_INTERNAL_ARMOR_GROUP_HELMET</supports>
+		<description>
+			<p>PLACEHOLDER</p>
+			<p>PLACEHOLDER</p>
+			<p class="indent"><b><i>PLACEHOLDER:</i></b>PLACEHOLDER</p>
+		</description>
+		<setters>
+			<set name="category">Deadeye's Wonderous Items</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">helmet</set>
+			<set name="type">Helmet</set>
+			<set name="armor">Helmet</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR</set>
+		</setters>
+		<rules>
 		</rules>
 	</element>
 </elements>
