@@ -16,7 +16,7 @@
 			<p class="indent"><b><i>Good Feels:</i></b> The pendant makes you feel better about yourself sport, you can do the thing. Even if it seems difficult at start.</p>
 		</description>
 		<setters>
-			<set name="category">Deadeye's Wonderous Items</set>
+			<set name="category">Treasure</set>
 			<set name="cost" currency="gp">10</set>
 			<set name="weight" lb="6">6 lb.</set>
 			<set name="type">Treasure</set>
