@@ -8,7 +8,7 @@
 			<file name="items-weapeons.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items_weapeons.xml" />
 		</update>
 	</info>
-	<element name="Lakeside Staff" type="Staff" source="Deadeye's Wonderous Items" id="ID_DEADEYE_HELL_REB_SHD">
+	<element name="Lakeside Priest Staff" type="Staff" source="Deadeye's Wonderous Items" id="ID_DEADEYE_HELL_REB_SHD">
 		<supports>ID_INTERNAL_ARMOR_GROUP_STAFFS</supports>
 		<description>
 			<p>PLACEHOLDER</p>
@@ -21,11 +21,11 @@
 			<set name="weight" lb="6">6 lb.</set>
 			<set name="slot">onehand,secondary</set>
 			<set name="type">Staff</set>
-			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_MARTIAL</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
 		</setters>
 		<rules>
 			<!-- This is wrong spell but i am too lazy to lookup correct ID rn -->
-			<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" />
+			<grant type="Spell" id="ID_PHB_SPELL_HEALING_WORD" />
 		</rules>
 	</element>
 </elements>

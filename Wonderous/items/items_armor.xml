@@ -32,7 +32,7 @@
 		</rules>
 	</element>
 	<!-- Headgear -->
-	<element name="Floktenders headband" type="Armor" source="Deadeye's Wonderous Items" id="ID_DEADEYE_DRUID_FLKTEND_HEADBAND">
+	<element name="Floktenders Headband" type="Armor" source="Deadeye's Wonderous Items" id="ID_DEADEYE_DRUID_FLKTEND_HEADBAND">
 		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 		<description>
 			<p>PLACEHOLDER</p>
