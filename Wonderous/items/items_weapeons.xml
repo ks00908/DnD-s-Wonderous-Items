@@ -24,6 +24,7 @@
 			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_MARTIAL</set>
 		</setters>
 		<rules>
+			<!-- This is wrong spell but i am too lazy to lookup correct ID rn -->
 			<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" />
 		</rules>
 	</element>
