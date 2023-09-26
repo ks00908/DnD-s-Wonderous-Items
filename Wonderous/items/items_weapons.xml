@@ -25,6 +25,6 @@
 		</setters>
         <rules>
             <!-- Replace with correct spell before pushing to master! -->
-            <grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" />
+            <grant type="Spell" id="ID_PHB_SPELL_HEALING_WORD" />
 	</element>
 </elements>
