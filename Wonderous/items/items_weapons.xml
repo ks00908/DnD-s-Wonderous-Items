@@ -27,5 +27,6 @@
         <rules>
             <!-- Replace with correct spell before pushing to master! -->
             <grant type="Spell" id="ID_PHB_SPELL_HEALING_WORD" />
+		</rules>
 	</element>
 </elements>
