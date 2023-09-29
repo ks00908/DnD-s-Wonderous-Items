@@ -4,7 +4,7 @@
 		<name>Deadeye's Wonderous Items</name>
 		<description>" "</description>
 		<author url="">Deadeye</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="items_armor.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items_armor.xml" />
 		</update>
 	</info>
@@ -33,6 +33,7 @@
 	</element>
 	<!-- Headgear -->
 	<element name="Valley druid Headband" type="Armor" source="Deadeye's Wonderous Items" id="ID_DEADEYE_DRUID_VALDRUID_HEADBAND">
+		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
 		<description>
 			<p>Headband given to the party by druid floktender as thanks for helping save the valley.</p>
 			<p class="indent"><b><i>Natures Bark:</i></b> Gives bonus 1 AC to characters not using metal armor or shield.</p>
@@ -40,9 +41,9 @@
 		<setters>
 			<set name="category">Armor</set>
 			<set name="cost" currency="gp">Who knows?</set>
-			<set name="weight" lb="6">6 lb.</set>
+			<set name="weight" lb="1">1 lb.</set>
 			<set name="slot">hands</set>
-			<set name="type">Wondrous Item</set>
+			<set name="type">Armor</set>
 			
 		</setters>
 		<rules>
