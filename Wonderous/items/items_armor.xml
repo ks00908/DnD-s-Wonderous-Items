@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Deadeye's Wonderous Items</name>
+		<description>" "</description>
+		<author url="">Deadeye</author>
+		<update version="0.0.1">
+			<file name="items_armor.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items_armor.xml" />
+		</update>
+	</info>
+	<!--shields-->
+	<element name="[TEST ITEM] Shield of Hellish Rebuke" type="Armor" source="Deadeye's Wonderous Items" id="ID_DEADEYE_HELL_REB_SHD">
+		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+		<description>
+			<p>circular shield made of obsidian-black metal adorned with intricate, crimson-rimmed runes etched along its surface.</p>
+			<p>As you grasp its handle, you can feel a faint, fiery warmth emanating from within, an ever-present reminder of the hellfire contained within.</p>
+			<p class="indent"><b><i>Hellish Rebuke:</i></b> The Shield allows you to cast Hellish Rebuke as level 1 spell once per short rest without using spell slots. Dexterity is your casting focus for this spell.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="type">Shield</set>
+			<set name="armor">Shield</set>
+			<set name="armorClass">+2</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="2" bonus="shield" />
+			<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" />
+		</rules>
+	</element>
+	<!-- Headgear -->
+	<element name="Valley druid Headband" type="Armor" source="Deadeye's Wonderous Items" id="ID_DEADEYE_DRUID_VALDRUID_HEADBAND">
+		<description>
+			<p>Headband given to the party by druid floktender as thanks for helping save the valley.</p>
+			<p class="indent"><b><i>Natures Bark:</i></b> Gives bonus 1 AC to characters not using metal armor or shield.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">Who knows?</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">hands</set>
+			<set name="type">Wondrous Item</set>
+			
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="1" equipped="![armor:metal]" />
+		</rules>
+	</element>
+</elements>
