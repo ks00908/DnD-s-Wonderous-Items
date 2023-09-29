@@ -12,11 +12,12 @@
 		<element name="Lakeside's Priest Staff" type="Weapon" source="Deadeye's Wonderous Items" id="ID_DEADEYE_LAKSID_STAFF">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
 		<description>
-			<p></p>
+			<p>Staff given to the party by priest from Lakeside as thanks to helping in the valley. It has a unique symbol on it. Contrary to some beliefs it does not summon meteor swarm.</p>
+			<p class="indent"><b><i>Healers Might:</i></b> While this staff is equipped you can cast Healing Word as level one spell once per short rest as free action.</p>
 		</description>
 		<setters>
 			<set name="category">Weapons</set>
-			<set name="cost" currency="sp">2</set>
+			<set name="cost" currency="gp">Who knows?</set>
 			<set name="weight" lb="4">4 lb.</set>
 			<set name="slot">onehand</set>
 			<set name="damage" type="bludgeoning">1d6</set>

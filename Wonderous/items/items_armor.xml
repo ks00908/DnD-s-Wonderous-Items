@@ -32,25 +32,21 @@
 		</rules>
 	</element>
 	<!-- Headgear -->
-	<element name="Floktenders Headband" type="Armor" source="Deadeye's Wonderous Items" id="ID_DEADEYE_DRUID_FLKTEND_HEADBAND">
-		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+	<element name="Valley druid Headband" type="Armor" source="Deadeye's Wonderous Items" id="ID_DEADEYE_DRUID_VALDRUID_HEADBAND">
 		<description>
-			<p>PLACEHOLDER</p>
-			<p>PLACEHOLDER</p>
-			<p class="indent"><b><i>PLACEHOLDER:</i></b> PLACEHOLDER.</p>
+			<p>Headband given to the party by druid floktender as thanks for helping save the valley.</p>
+			<p class="indent"><b><i>Natures Bark:</i></b> Gives bonus 1 AC to characters not using metal armor or shield.</p>
 		</description>
 		<setters>
 			<set name="category">Armor</set>
-			<set name="cost" currency="gp">10</set>
+			<set name="cost" currency="gp">Who knows?</set>
 			<set name="weight" lb="6">6 lb.</set>
-			<set name="slot">onehand,secondary</set>
-			<set name="type">Head</set>
-			<set name="armor">Head</set>
-			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR</set>
+			<set name="slot">hands</set>
+			<set name="type">Wondrous Item</set>
+			
 		</setters>
 		<rules>
-			<!-- Replace with correct grant or remove the section when we learn what it is -->
-			<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" />
+			<stat name="ac:misc" value="1" equipped="![armor:metal]" />
 		</rules>
 	</element>
 </elements>
