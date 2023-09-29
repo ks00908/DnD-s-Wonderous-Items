@@ -4,7 +4,7 @@
 		<name>Deadeye's Wonderous Items</name>
 		<description>" "</description>
 		<author url="">Deadeye</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="items_armor.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items_armor.xml" />
 		</update>
 	</info>
@@ -32,8 +32,8 @@
 		</rules>
 	</element>
 	<!-- Headgear -->
-	<element name="Valley druid Headband" type="Armor" source="Deadeye's Wonderous Items" id="ID_DEADEYE_DRUID_VALDRUID_HEADBAND">
-		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+	<element name="Druidic Circlet" type="Armor" source="Deadeye's Wonderous Items" id="ID_DEADEYE_DRUID_VALDRUID_HEADBAND">
+		<supports>ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR</supports>
 		<description>
 			<p>Headband given to the party by druid floktender as thanks for helping save the valley.</p>
 			<p class="indent"><b><i>Natures Bark:</i></b> Gives bonus 1 AC to characters not using metal armor or shield.</p>
@@ -46,6 +46,7 @@
 			<set name="type">Armor</set>
 			
 		</setters>
+		<!-- Fix the applying for only non-metal-->
 		<rules>
 			<stat name="ac:misc" value="1" equipped="![armor:metal]" />
 		</rules>
