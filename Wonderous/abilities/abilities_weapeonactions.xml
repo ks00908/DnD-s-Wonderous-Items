@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Deadeye's Wonderous Items</name>
+		<description>" "</description>
+		<author url="">Deadeye</author>
+		<update version="0.0.3">
+			<file name="items_weapons.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items_weapons.xml" />
+		</update>
+	</info>
+	<!--BG3 Weapeons actions List-->
+	<element name="Backbreaker" type="Feature" source="Deadeye's Wonderous Items" id="ID_DEADEYE_BACKBREAKER">
+		<description>
+			<p>Backbreaker: 1d4+ STR, Action, Put extra force behind your strike to possibly knock your enemy prone. STR Save.</p>
+		</description>
+        <sheet usage="1/Short Rest">
+			<description>1d4+ STR, Action, Put extra force behind your strike to possibly knock your enemy prone. STR Save.</description>
+		</sheet>
+	</element>
+	<element name="Cleave" type="Feature" source="Deadeye's Wonderous Items" id="ID_DEADEYE_CLEAVE">
+		<description>
+			<p>Cleave: half of weapons normal damage, action, added damage not halved, Action, swing your weapon in a wide arc to strike upto 3 targets in melee range</p>
+		</description>
+        <sheet usage="1/Short Rest">
+			<description>Half of weapons normal damage, action, added damage not halved, Action, swing your weapon in a wide arc to strike upto 3 targets in melee range</description>
+		</sheet>
+	</element>
+	<element name="Concussive Smash" type="Feature" source="Deadeye's Wonderous Items" id="ID_DEADEYE_CONCSMASH">
+		<description>
+			<p>Concussive Smash:  Weapon damage, action, hit an enemy with all your might to try and daze them. CON Save, 2 turns.</p>
+		</description>
+        <sheet usage="1/Short Rest">
+			<description> Weapon damage, action, hit an enemy with all your might to try and daze them. CON Save, 2 turns.</description>
+		</sheet>
+	</element>
+	<element name="Crippling Strikes" type="Feature" source="Deadeye's Wonderous Items" id="ID_DEADEYE_CRIPLINGSTRIKE">
+		<description>
+			<p>Crippling Strikes: 1d4+ STR, Action, Sweep an enemies legs to possibly maim them. CON Save, 2 turns.</p>
+		</description>
+        <sheet usage="1/Short Rest">
+			<description>1d4+ STR, Action, Sweep an enemies legs to possibly maim them. CON Save, 2 turns.</description>
+		</sheet>
+	</element>
+</elements>

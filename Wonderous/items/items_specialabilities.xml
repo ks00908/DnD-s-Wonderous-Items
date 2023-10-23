@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Deadeye's Wonderous Items</name>
+		<description>" "</description>
+		<author url="">Deadeye</author>
+		<update version="0.0.1">
+			<file name="items_specialabilities.xml" url="https://raw.githubusercontent.com/ks00908/DnD-s-Wonderous-Items/master/Wonderous/items/items_specialabilities.xml" />
+		</update>
+	</info>
+	<!--BG3 Weapeon Ability Grants-->
+	<element name="[TEST ITEM] Cleave Ability" type="Armor" source="Deadeye's Wonderous Items" id="ID_DEADEYE_CLEAVE_GRANT">
+		<description>
+			<p>Grants ability of Cleave on character sheet.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+            <set name="slot"></set>
+			<set name="type">Ring</set>
+			<set name="armor">Ring</set>
+		</setters>
+		<rules>
+			<grant type="Feature" id="ID_DEADEYE_CLEAVE" />
+		</rules>
+	</element>
+</elements>

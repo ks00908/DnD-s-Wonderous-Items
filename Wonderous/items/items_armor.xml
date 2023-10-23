@@ -42,7 +42,7 @@
 			<set name="category">Armor</set>
 			<set name="cost" currency="gp">Who knows?</set>
 			<set name="weight" lb="1">1 lb.</set>
-			<set name="slot">hands</set>
+			<set name="slot">head</set>
 			<set name="type">Armor</set>
 			
 		</setters>
