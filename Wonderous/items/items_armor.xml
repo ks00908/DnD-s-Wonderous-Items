@@ -31,6 +31,27 @@
 			<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" />
 		</rules>
 	</element>
+	<element name="Light Shield" type="Armor" source="Deadeye's Wonderous Items" id="ID_DEADEYE_HELL_REB_SHD">
+		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+		<description>
+			<p></p>
+			<p></p>
+			<p class="indent"><b><i>Light:</i></b> The Shield has lower AC bonus than standard (+1)</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="type">Shield</set>
+			<set name="armor">Shield</set>
+			<set name="armorClass">+1</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="1" bonus="shield" />
+		</rules>
+	</element>
 	<!-- Headgear -->
 	<element name="Druidic Circlet" type="Armor" source="Deadeye's Wonderous Items" id="ID_DEADEYE_DRUID_VALDRUID_HEADBAND">
 		<supports>ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR</supports>
